@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a35a67e2-b7a0-48b3-accb-a2058715bb9e">
+  <name>ЦБР_НазначитьИсполнителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначить исполнителя</value>
+  </synonym>
+</mdclass:CommonPicture>

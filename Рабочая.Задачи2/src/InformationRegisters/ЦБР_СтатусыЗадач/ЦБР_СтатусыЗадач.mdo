@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58a777b3-e5d0-466e-bd37-05f128bc8cca">
+  <producedTypes>
+    <selectionType typeId="2f05d0ba-cd38-488b-b37f-aa8adb8fffb3" valueTypeId="37b847d5-80c9-4283-87b2-b065c1a75f99"/>
+    <listType typeId="51137bc7-2aa7-4947-8c0a-d52179b49c98" valueTypeId="7ec41258-f0e8-4665-a8bf-fb11ecbd050f"/>
+    <managerType typeId="9ac46edf-26b8-4586-994b-fd4c48b930d7" valueTypeId="fc06d19f-2da3-43e8-836b-431b5eb2bc17"/>
+    <recordSetType typeId="4de7187c-931d-45ca-bcd0-16c10b407987" valueTypeId="6e5d7b61-75c2-4db1-9543-8f6f701535de"/>
+    <recordKeyType typeId="81510796-4c2c-4a63-9b44-87cecde275c0" valueTypeId="a44ce413-4cb7-408b-bfc6-ad0aec6d7b3b"/>
+    <recordType typeId="c02b09fe-8d28-4c1f-91ae-82143341d33e" valueTypeId="4871db5e-4561-453d-b29e-2878d92423b0"/>
+    <recordManagerType typeId="dadc7137-5090-4966-b00c-29c9d93c78ca" valueTypeId="d56315fb-efb3-44ac-b945-fa3c9ba420b1"/>
+  </producedTypes>
+  <name>ЦБР_СтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задач (ЦБР)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7f7b42ea-2cb2-4200-8ec0-5fc71a1a29f2">
+    <name>СостояниеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние задачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЦБР_Состояние</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="77b991ee-e4f4-4686-9423-cb9ced8c299a">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦБР_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="34c87278-5215-44b1-a936-6b4b9370cafa">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

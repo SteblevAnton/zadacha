@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="144b99ac-8001-406c-99b8-07d180ed1b04" extendedConfigurationObject="44016f28-cbb4-44d8-aac7-ad2e9f0f82dc">
+  <producedTypes>
+    <objectType typeId="e3140447-95ad-4707-a47f-14bd8ac07b7e" valueTypeId="53d90e14-b0f4-4679-a342-0552e1dd9cf5"/>
+    <refType typeId="e358ee9a-2458-43d8-926f-5832b4670faa" valueTypeId="1847fd20-265d-4d1f-8da8-ffc0bebba864"/>
+    <selectionType typeId="89295600-bd66-4d74-9a70-6a5b330bc2eb" valueTypeId="d6e3db59-133c-4ae3-afae-fbb69dd160fb"/>
+    <listType typeId="ace5e80a-f757-4cbb-8622-8a4f2903584f" valueTypeId="b31a1ebf-191e-4bd0-9293-2cbb00c10479"/>
+    <managerType typeId="d7a2aef1-2253-4e7f-af7d-5b336b84d5ba" valueTypeId="bade8543-0d16-40db-833b-8261deb88469"/>
+  </producedTypes>
+  <name>cbr_РеализацияТоваровУслугУПР</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <registerRecords>AccumulationRegister.ЦБР_ЧасыКлиентов</registerRecords>
+</mdclass:Document>

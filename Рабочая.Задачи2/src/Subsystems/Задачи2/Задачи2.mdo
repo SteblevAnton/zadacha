@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fea8622-0794-4d93-b537-62c6e678cfab">
+  <name>Задачи2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи 2.0</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЦБР_Задача</content>
+  <content>Document.ЦБР_Задание</content>
+  <content>DataProcessor.ЦБР_АРМВнедренияКонструктор</content>
+  <content>DataProcessor.ЦБР_АРМКоммерческийКонструктор</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Регистры</subsystems>
+</mdclass:Subsystem>

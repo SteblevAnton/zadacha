@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6ca557f-4f6f-4fe7-8184-c41cbd442c70">
+  <producedTypes>
+    <refType typeId="b5dfd73f-2f3f-4638-a978-de19fb0f950c" valueTypeId="70baadf1-712a-411f-95ce-bf7cf3c2d4eb"/>
+    <listType typeId="13abbf0f-38bb-42a0-90ac-2df972dc0bc0" valueTypeId="8b80ab96-39de-40f4-82e5-d408dcca7ca2"/>
+    <managerType typeId="6030d4d7-d46d-48db-9b00-5fbd74f2a080" valueTypeId="bee273c1-55a5-467b-ad50-14c9b6c42789"/>
+  </producedTypes>
+  <name>ЦБР_ТипОценкиЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБР тип оценки задачи</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="611ce31e-b3a8-4515-933e-7bd83cbb9c86">
+    <name>ПоФакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>По факту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69326a26-6cc8-4e30-8e89-e8a6510482aa">
+    <name>Предсогласованные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предсогласованные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58b6866f-59f3-46fe-90f4-60baf8bdbda1">
+    <name>Стандартная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

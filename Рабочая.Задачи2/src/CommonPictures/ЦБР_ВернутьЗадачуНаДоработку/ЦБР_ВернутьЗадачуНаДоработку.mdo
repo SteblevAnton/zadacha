@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ebfb9f8-7053-4cdc-baa2-42400e31beb3">
+  <name>ЦБР_ВернутьЗадачуНаДоработку</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБР вернуть задачу на доработку</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09dff92d-0ec5-421f-8c31-cd346952f1b1">
+  <producedTypes>
+    <objectType typeId="e85e5c36-f08d-4fcb-b542-54819d2f0ba3" valueTypeId="c5b205e1-9777-4461-ab43-6c68d301ea8a"/>
+    <managerType typeId="c2242764-552d-42db-bf4a-3fe55427a960" valueTypeId="663496e0-1bdf-432e-9a91-34b1f9c14d72"/>
+  </producedTypes>
+  <name>ЦБР_АРМКоммерческийКонструктор</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ коммерческий (ЦБР)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЦБР_АРМКоммерческийКонструктор.Form.Форма</defaultForm>
+  <forms uuid="eeb07f30-d0b8-4e70-b996-f9fedc18b42c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a438359b-5e5b-4178-9be6-9ab2cff6be5b">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="09400b58-71fa-447b-bd3e-2ac7cd329d10">
+    <name>МакетРуководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет руководитель</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

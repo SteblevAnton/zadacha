@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcd43624-2cb3-4fb0-aaa6-5f52c481583d">
+  <name>ЦБР_ЗаписьКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБР запись календаря</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ЦБР_ЗаписиРабочегоКалендаря</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ЦБР_ТребуетВниманияПолныеПрава.ЦБР_ЗаписьКалендаряТребуетВнимание</handler>
+</mdclass:EventSubscription>

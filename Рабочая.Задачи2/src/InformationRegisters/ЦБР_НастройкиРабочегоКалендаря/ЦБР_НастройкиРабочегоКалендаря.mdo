@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81e52cc6-94d2-4c18-bb58-f4ca829e1ec6">
+  <producedTypes>
+    <selectionType typeId="476531e1-7d6a-4bac-901d-8acad43383eb" valueTypeId="2e83fff2-4165-4fa5-9684-28278639e925"/>
+    <listType typeId="46c45670-7022-4eab-9880-e3494018cff3" valueTypeId="fb7b22d7-59f5-4be3-aecb-34a483098bf3"/>
+    <managerType typeId="ba164a01-3e62-4bd3-8be6-10768263bd8e" valueTypeId="bd52b79c-c39f-4773-9dac-f7d229cf36a2"/>
+    <recordSetType typeId="467e2424-0c4f-4105-80c7-ffa238a6cfd5" valueTypeId="addcdab9-2622-41f7-afd0-e0ead03b4f2b"/>
+    <recordKeyType typeId="f1b67ca4-a860-4e35-b15a-7bebc7524e69" valueTypeId="3e6a884e-dce9-452f-947b-6c439b8684f0"/>
+    <recordType typeId="c95624be-f730-48f0-9844-148179c0c00c" valueTypeId="5fdce173-bb59-4024-b86e-701b039ef12b"/>
+    <recordManagerType typeId="11b47577-0664-4404-8531-e64e8cda4bc8" valueTypeId="f48ea1ac-3619-42d4-aa78-09056ad06cc1"/>
+  </producedTypes>
+  <name>ЦБР_НастройкиРабочегоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки рабочего календаря (ЦБР)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="01e05f8f-6f5f-418b-8e9e-e5ffd2049341">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЦБР_ДоступностьСотрудника</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1c263b67-24c7-46e1-a13b-fef9029dcfb7">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="de1635af-3749-4ced-a066-7fe37286cfe6">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЦБР_НастройкиРабочегоКалендаря</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="155e6a76-b19c-4ca9-bb1d-0e542d3a72c3">
+    <name>ДоступностьСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность сотрудников</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

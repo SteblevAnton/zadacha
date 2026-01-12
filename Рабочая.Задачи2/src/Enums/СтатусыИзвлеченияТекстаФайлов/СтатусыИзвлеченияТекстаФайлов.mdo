@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b9187301-f9a7-41ce-a51b-f47d0c2204f9" extendedConfigurationObject="ecd8772d-e33f-426f-a87a-e28bd94d5fdf">
+  <producedTypes>
+    <refType typeId="f158e08c-a4e1-42cd-88b9-49c430a0225b" valueTypeId="65fd6f11-d312-483b-a25d-3a2eee00af6f"/>
+    <listType typeId="f8a9a176-61c2-4056-959b-af37ed49008a" valueTypeId="58ddff96-03bf-466c-b025-62ebfcf7672e"/>
+    <managerType typeId="90399381-d75f-42ab-b004-ff70d9afb7aa" valueTypeId="01793187-290a-409e-87d0-d3c58de28f52"/>
+  </producedTypes>
+  <name>СтатусыИзвлеченияТекстаФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="222ddcae-1e4a-4487-a466-b9ed9c78d216">
+  <name>Регистры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ЦБР_ДействияПоЗаданиям</content>
+  <content>InformationRegister.ЦБР_ДоступноеВремяСотрудников</content>
+  <content>InformationRegister.ЦБР_ЗанятостьПоДням</content>
+  <content>InformationRegister.ЦБР_ЗанятостьСотрудников</content>
+  <content>InformationRegister.ЦБР_НастройкиАРМДляПользователей</content>
+  <content>InformationRegister.ЦБР_ИзмененияЗаписейВКалендаре</content>
+  <content>InformationRegister.ЦБР_НастройкиРабочегоКалендаря</content>
+  <content>InformationRegister.ЦБР_ПредсогласованныеЧасыПоЗадачам</content>
+  <content>InformationRegister.ЦБР_СоответствиеКуратораТипуЗадач</content>
+  <content>InformationRegister.ЦБР_СостоянияЗаданий</content>
+  <content>InformationRegister.ЦБР_СостоянияЗадач</content>
+  <content>InformationRegister.ЦБР_СтартОтказОтЗадач</content>
+  <content>InformationRegister.ЦБР_СтатусыЗадач</content>
+  <content>InformationRegister.ЦБР_ТребуютВнимания</content>
+  <content>InformationRegister.ЦБР_УточненияПоЗадачамЗаданиям</content>
+  <content>InformationRegister.ЦБР_Часы</content>
+  <content>AccumulationRegister.ЦБР_КоличествоЧасовСотрудниковПоЗадачам</content>
+  <content>AccumulationRegister.ЦБР_СогласованоЗакрытоЧасов</content>
+  <content>AccumulationRegister.ЦБР_ЧасыКлиентов</content>
+  <parentSubsystem>Subsystem.Задачи2</parentSubsystem>
+</mdclass:Subsystem>

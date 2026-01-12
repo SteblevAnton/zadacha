@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="683a000b-01ae-4551-846e-314ac662d853">
+  <name>фвц_ВыборЦветаHTMLПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фвц выбор цвета HTMLПовт исп</value>
+  </synonym>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adf75d0b-5f0d-4f7c-9cb6-2b71e71b75bb">
+  <name>ЦБР_ЗаписьЗадания_ОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись задания (ЦБР)</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ЦБР_СтруктураЗадач</types>
+    <types>CatalogObject.ЦБР_ЗаписиРабочегоКалендаря</types>
+    <types>DocumentObject.ЦБР_Задание</types>
+    <types>CatalogObject.ЦБР_Задача</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ЦБР_ТребуетВниманияПолныеПрава.ЦБР_ЗаписьОбъектаТребуетВнимание</handler>
+</mdclass:EventSubscription>

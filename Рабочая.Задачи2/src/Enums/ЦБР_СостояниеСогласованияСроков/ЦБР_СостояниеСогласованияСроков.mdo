@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8984923-2887-4bc7-bf09-91ab2810aba8">
+  <producedTypes>
+    <refType typeId="bdf042e5-db76-4892-8d92-e6c1916dbc9b" valueTypeId="feb423ab-a1cb-46f7-b62a-0f93c07042f1"/>
+    <listType typeId="9782b907-3ec8-46bc-8152-d10e4a5d8ca3" valueTypeId="737eb1be-5365-4406-ad6e-60d44cb64856"/>
+    <managerType typeId="815becfe-b8aa-4b81-9639-e10e76e024e3" valueTypeId="580e237a-cda2-4796-bb35-818653dc185b"/>
+  </producedTypes>
+  <name>ЦБР_СостояниеСогласованияСроков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние согласования сроков (ЦБР)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2454312b-65a0-4e4f-b693-c7a3e42f699f">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af2a3770-8d8c-4ceb-8489-79ba5f28797e">
+    <name>НаРассмотрении</name>
+    <synonym>
+      <key>ru</key>
+      <value>На рассмотрении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4642d11b-66fb-40d3-891d-cdf1315ce728">
+    <name>Корректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="417c8443-cff4-4fee-bde2-8c2d06f32ad5">
+    <name>Согласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2762141d-5daf-4363-93fc-6e5daf150b5b">
+    <name>Отказан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказан</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

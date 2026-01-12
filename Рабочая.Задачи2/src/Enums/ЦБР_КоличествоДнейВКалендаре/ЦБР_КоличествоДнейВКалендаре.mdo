@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0bbd49d-df2e-422b-879d-681c04b4fa66">
+  <producedTypes>
+    <refType typeId="2200c753-64e7-453c-bff9-c5e6e993d0b0" valueTypeId="7394167e-2106-4b86-8e72-fa3d359519ca"/>
+    <listType typeId="982bcb3f-1a07-4f02-ac2c-8832888f9b8e" valueTypeId="01c454e9-ae6b-4c99-a75f-aae6deb5e7f0"/>
+    <managerType typeId="02d35d9f-751e-4c0a-8e4d-1e9eb6fff9c0" valueTypeId="d6ce4342-e5f1-4c90-954e-e56b15f7425a"/>
+  </producedTypes>
+  <name>ЦБР_КоличествоДнейВКалендаре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дней в календаре (ЦБР)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Количество дней в календаре (ЦБР)</value>
+  </listPresentation>
+  <enumValues uuid="8044c7ed-8cc5-4854-b93c-502aff0b5c6d">
+    <name>Пятидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятидневка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7732b4a2-8fa6-48ae-b551-5f2c41a6157e">
+    <name>Шестидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шестидневка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b0ea200-91ad-45d5-ad7d-ca115370a2bf">
+    <name>Семидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семидневка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

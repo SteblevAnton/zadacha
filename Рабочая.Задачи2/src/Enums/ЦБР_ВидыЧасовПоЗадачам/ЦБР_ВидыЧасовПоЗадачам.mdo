@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c0b8282-8da8-4abb-aa88-1e4e81d25a15">
+  <producedTypes>
+    <refType typeId="30372e83-c19a-49d4-9f6a-aec28478e5b8" valueTypeId="e0a98f1b-2977-424b-86db-db82e47d89b7"/>
+    <listType typeId="c0b6c83f-818f-43a4-adc9-bac7c7ae5601" valueTypeId="2f0f1c08-be1b-4776-9d91-69743277368b"/>
+    <managerType typeId="6e01e792-daf1-4039-84da-bc5dc8afa53a" valueTypeId="d740b5a0-d70e-4735-a6e5-eb0c50afd6f8"/>
+  </producedTypes>
+  <name>ЦБР_ВидыЧасовПоЗадачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБР виды часов по задачам</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6a56f8a5-1acf-4ed5-acb3-87778ebec783">
+    <name>ИТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИТС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e1de236-53c1-40c3-b2c5-394d6299fb5e">
+    <name>Установка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16b0ae51-dd2f-4557-8366-18ffc594a708">
+    <name>Платные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16780fa6-4125-4758-b121-78644f3fb3e1">
+    <name>Бесплатные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бесплатные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="540b7b3d-a87a-4f38-90a5-f7170bfdbb8c">
+    <name>Демо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

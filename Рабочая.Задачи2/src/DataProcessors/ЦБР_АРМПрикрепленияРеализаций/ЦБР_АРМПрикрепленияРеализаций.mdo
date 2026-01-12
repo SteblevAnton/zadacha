@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51495d46-baac-4fa9-aed1-a2a4727a4450">
+  <producedTypes>
+    <objectType typeId="d5eb71b7-2d70-4a41-930d-369f8f8f24d0" valueTypeId="b31cb4c8-0851-4887-8f8c-470319ead4c8"/>
+    <managerType typeId="4fd9a953-b701-42a0-99a6-298daa7d5080" valueTypeId="a897a7c1-eaf1-478a-82cf-bc237d403cc6"/>
+  </producedTypes>
+  <name>ЦБР_АРМПрикрепленияРеализаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ прикрепления реализаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЦБР_АРМПрикрепленияРеализаций.Form.ФормаНовая</defaultForm>
+  <forms uuid="8dd10f71-230c-45d0-bde3-f39ff949708c">
+    <name>ФормаРазделенияЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма разделения часов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fda88d3d-06a7-45a4-9192-a195e8b2e1ad">
+    <name>ФормаНовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма новая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

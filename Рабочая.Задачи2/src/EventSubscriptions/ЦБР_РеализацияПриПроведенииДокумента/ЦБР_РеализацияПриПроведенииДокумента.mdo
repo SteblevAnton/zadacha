@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c999b8ce-30a4-45ff-afc4-f6337df8d76b">
+  <name>ЦБР_РеализацияПриПроведенииДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБР реализация при проведении документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.cbr_РеализацияТоваровУслугУПР</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.ЦБР_УчетТрудозатрат.ЦБР_РеализацияПриПроведенииДокументаОбработкаПроведения</handler>
+</mdclass:EventSubscription>

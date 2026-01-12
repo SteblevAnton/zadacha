@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca7a7911-8807-4b24-b471-c1140e148830">
+  <producedTypes>
+    <selectionType typeId="bd1482d5-ac6f-41c4-8cff-3d055c809028" valueTypeId="9396770e-fe09-4ea4-9941-2c5e929a7d5b"/>
+    <listType typeId="7a1cee40-09b8-4943-bdd8-fad3aebbd6af" valueTypeId="6dee6408-4030-4376-b428-40a9b7a0da03"/>
+    <managerType typeId="cf85bd01-1ceb-41bb-ac50-15c8369d9f21" valueTypeId="4e4a347c-e2a2-4fea-901f-36881afdec74"/>
+    <recordSetType typeId="889fdf37-9421-40e5-8cf7-fa16c3a774ef" valueTypeId="e905dd19-8e6b-4f07-ba7e-ed7423ccdcc3"/>
+    <recordKeyType typeId="8b8d4485-a011-4a2f-bf44-d59b40f6c3eb" valueTypeId="97db736c-5d45-4b22-a6a9-421d69f3e9a7"/>
+    <recordType typeId="a45b4a26-ae83-4f90-adfd-e0abda38cdb2" valueTypeId="85bfac47-2cff-461d-a362-7eed6c763264"/>
+  </producedTypes>
+  <name>ЦБР_КоличествоЧасовСотрудниковПоЗадачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество часов сотрудников по задачам (ЦБР)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Количество часов сотрудников по задачам</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Количество часов сотрудников по задачам</value>
+  </extendedListPresentation>
+  <resources uuid="8eae290b-7b49-4a21-a00f-7f37a7c177cb">
+    <name>Часы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c05fc04b-d44c-4502-893c-9cbd6075f6c3">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1dbd7321-92cd-466e-b4bf-09482c5ba08b">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦБР_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6a61e308-1698-4adc-aa0f-f18183a2c0a3">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЦБР_Задание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="307b6e17-abfa-403b-92a2-1fd3e6fbd7f0">
+    <name>ТипЧаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип часа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЦБР_ВидыЧасовПоЗадачам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

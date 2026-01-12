@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8440573a-5f2a-4b02-b788-f0a5960f4512">
+  <producedTypes>
+    <refType typeId="dc9d8251-49bd-4edb-8216-a8175daef5c8" valueTypeId="2d669af7-254e-476c-af02-93ef246ac912"/>
+    <listType typeId="c6427bb8-950a-4e96-b89a-e80c38caa6d9" valueTypeId="ed278814-50e1-487c-8063-8318a643288b"/>
+    <managerType typeId="649bb5d1-4f54-4f94-b208-44a2b62e31e7" valueTypeId="695cd58f-ffda-4626-b68c-c792474f089c"/>
+  </producedTypes>
+  <name>ЦБР_СтатусыЗадачиБезРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задачи без реализации (ЦБР)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3b526da5-5cba-4bb5-83fb-91b07a1c0268">
+    <name>НетРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет реализации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e490cf3-bafd-4da7-b1ba-8767b388dbcb">
+    <name>Демо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75654ceb-7b8f-4100-836d-83d798ac018f">
+    <name>ЗаСчетКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>За счет компании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ae84a32-b171-444f-b2a2-5f97a0d14e18">
+    <name>ПограничнаяЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пограничная задача</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

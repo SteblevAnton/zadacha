@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64e5d6fc-7161-4db1-9f76-c2364871f61a">
+  <producedTypes>
+    <refType typeId="d4e7ee40-9029-4baf-8606-2faf33ce5acd" valueTypeId="278c60eb-276c-484c-b40c-fdd790a17834"/>
+    <listType typeId="8193f365-f2fe-4089-9b8c-c0370e188901" valueTypeId="9a7549b3-fe32-464e-aa2e-65683f900847"/>
+    <managerType typeId="d605d852-84d1-4a97-a45b-cfb04f6795c4" valueTypeId="28e35b9b-0a99-47e8-bb0a-0106c0e3f2d0"/>
+  </producedTypes>
+  <name>ЦБР_РольВЗадаче</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роль в задаче (ЦБР)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5409be14-f4d5-4a50-90c6-b9c81b494b76">
+    <name>Постановщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постановщик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d31c6d54-c0da-488d-af68-7e96f9b24815">
+    <name>Наблюдатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наблюдатель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="951a8731-a2f2-4bac-b334-a8f2cf1024a4">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e24d37c-cdba-49ba-a54a-299508abab7c">
+    <name>КураторИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Куратор исполнителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4ffef91-31f6-4690-98e7-b4403881eacd">
+    <name>КураторПостановщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Куратор постановщика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9459147-426e-488b-81da-c252a279adfe">
+    <name>ВладелецЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец задачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e8522f3-c4c1-46df-b698-38d47015a115">
+    <name>ИсполнительРазработчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель: Разработчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77a300a0-ec5b-4605-bacb-860a974311b9">
+    <name>ИсполнительАналитик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель: Аналитик</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

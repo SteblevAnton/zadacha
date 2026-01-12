@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d92fc3dd-da6f-4440-b7a5-f20c76104b17">
+  <name>CRM_ПодсистемаУправленияДоступом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема управления доступом</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Subsystem of access control</value>
+  </synonym>
+  <comment>Подсистема &quot;Управление доступом&quot;</comment>
+</mdclass:CommonPicture>

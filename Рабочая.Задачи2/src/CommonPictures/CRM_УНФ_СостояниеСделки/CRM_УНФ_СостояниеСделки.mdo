@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf4f84be-366d-4afa-8a4c-9b31ed9d82b9">
+  <name>CRM_УНФ_СостояниеСделки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние сделки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Status of the transaction</value>
+  </synonym>
+</mdclass:CommonPicture>

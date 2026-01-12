@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40bf7d9c-451f-4c4f-8bb9-828b13bd811b">
+  <name>ЦБР_СотрудникОВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудник ОВ (ЦБР - задачи 2.0</value>
+  </synonym>
+</mdclass:Role>

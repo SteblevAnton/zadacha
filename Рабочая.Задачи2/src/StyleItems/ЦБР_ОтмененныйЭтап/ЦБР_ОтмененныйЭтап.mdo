@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8eb4fc96-d5ba-436a-a91f-3ef20f77e7f1">
+  <name>ЦБР_ОтмененныйЭтап</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБР отмененный этап</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontDef">
+      <faceName>Calibri</faceName>
+      <height>9.0</height>
+      <strikeout>true</strikeout>
+    </value>
+  </value>
+</mdclass:StyleItem>

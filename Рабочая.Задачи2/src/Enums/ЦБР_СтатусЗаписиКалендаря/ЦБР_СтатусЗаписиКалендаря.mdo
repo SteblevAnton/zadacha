@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d210e613-2307-4511-bf72-254b432f8908">
+  <producedTypes>
+    <refType typeId="f2bec779-d67a-4f29-8ed4-b204fa33b382" valueTypeId="b4ad4299-dad1-406f-add7-3c85912650e4"/>
+    <listType typeId="242f9a47-5547-4ac7-bd69-35b1aced7042" valueTypeId="3083a407-1404-4740-a06d-c6fc6b4c537c"/>
+    <managerType typeId="68d29832-6b5e-4005-a6e1-160323c39460" valueTypeId="2434322c-9c60-49af-bbc9-3ac393ad9289"/>
+  </producedTypes>
+  <name>ЦБР_СтатусЗаписиКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБР статус записи календаря</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="728bdd69-05b9-4040-b266-eac6192a5007">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4444b356-e7bc-41a3-b37e-fc1b6912b7c5">
+    <name>Начал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f658bc6b-af68-4328-af2a-28cf5ee5dbbc">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b90bbce-a484-4103-86b5-c7ab29657f37">
+    <name>Отмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

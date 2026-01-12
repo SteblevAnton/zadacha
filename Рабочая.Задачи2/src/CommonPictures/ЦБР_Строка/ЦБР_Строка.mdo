@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35c580a4-9a39-4d5a-84fd-41e5db60faff">
+  <name>ЦБР_Строка</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБР строка</value>
+  </synonym>
+</mdclass:CommonPicture>

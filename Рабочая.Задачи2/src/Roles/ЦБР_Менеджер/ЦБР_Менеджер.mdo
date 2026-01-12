@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ee2159b-fdd1-47e5-9a61-c50790a7616d">
+  <name>ЦБР_Менеджер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер (ЦБР - задачи 2.0)</value>
+  </synonym>
+</mdclass:Role>

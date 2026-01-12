@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eb5d002-e9f2-4cfa-8eae-4c12a60a226e">
+  <name>ЦБР_КэшированиеВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБР кэширование вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

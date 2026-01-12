@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="307896c5-66eb-4211-a85c-dfabf9979fbb">
+  <name>cbr_СтраницаВыбораЦветаHTML1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страница выбора цвета</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

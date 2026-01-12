@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2302fd00-1de3-41f6-b5db-244f212bb670">
+  <name>ЦБР_Инструменты_Telegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБР инструменты telegram</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

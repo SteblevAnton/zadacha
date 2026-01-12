@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af9b1fab-18af-40c0-abca-807d4e9f75e5">
+  <name>ЦБР_ВидимостьДоступностьЭлементовФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦБР видимость доступность элементов формы</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

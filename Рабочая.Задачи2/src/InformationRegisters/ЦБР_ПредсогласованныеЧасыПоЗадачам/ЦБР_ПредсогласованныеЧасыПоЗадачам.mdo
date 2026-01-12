@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="310e35e7-9dbb-459f-8223-c4a9da4b2814">
+  <producedTypes>
+    <selectionType typeId="8db45125-0abd-4469-8aa5-33aa913b6694" valueTypeId="9b1ffe0f-0950-4123-9da3-69cc2081c2d5"/>
+    <listType typeId="1be8eb35-acf5-4098-a583-62df428295b5" valueTypeId="04ca5442-dbc8-484d-a1f7-0ef66133fde6"/>
+    <managerType typeId="1e678c93-9076-410f-a37d-abf4a042fd59" valueTypeId="9907e104-753d-4ce4-af78-267f16fef757"/>
+    <recordSetType typeId="92238a16-b305-4559-8408-1b62b391700b" valueTypeId="cc84c155-5461-4d5e-b817-0eeef3e094fa"/>
+    <recordKeyType typeId="fb88234d-a3b6-477c-bb60-bf8c1cb45842" valueTypeId="7171b618-1240-48b4-be75-b135e0b0b3a8"/>
+    <recordType typeId="57751c1e-bd28-4b0b-8470-10e63bc0f7b7" valueTypeId="4ebbecb4-430c-43d2-815c-233a9bba9246"/>
+    <recordManagerType typeId="fdede08c-f717-4be3-a95d-840b6341b198" valueTypeId="d9ded081-bb11-400c-bdd9-7bf4da15a98f"/>
+  </producedTypes>
+  <name>ЦБР_ПредсогласованныеЧасыПоЗадачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предсогласованные часы по задачам (ЦБР)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e38fafcc-8c7c-4959-bfa7-28b6220504e7">
+    <name>Часы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="306a88b0-d320-49eb-bd5e-6883973947e1">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦБР_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="265e267d-bb97-4eef-a946-b8cc78a48301">
+    <name>ОбъектРегистратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект регистратор</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЦБР_Задание</types>
+      <types>CatalogRef.ЦБР_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="658da0ae-55b4-479f-8d97-b14ce029912c">
+  <producedTypes>
+    <refType typeId="5a911888-04b8-456a-9598-61c835a070cd" valueTypeId="6c1f5175-5c31-45d0-ba17-d1b7c87a27d5"/>
+    <listType typeId="58e30928-cacc-41aa-a2f2-f5bef177f0d9" valueTypeId="8b7b72a2-51f6-4cd0-ab36-a40b8c5c85de"/>
+    <managerType typeId="443ab301-340f-4999-9c78-7849cebfce12" valueTypeId="c05355ed-bda5-4911-9bd4-7408123b86e4"/>
+  </producedTypes>
+  <name>ЦБР_ВидЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид задачи (ЦБР)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы задач отдела внедрения</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы задач отдела внедрения</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Список типов задач отдела внедрения.</value>
+  </explanation>
+  <enumValues uuid="bf0b3233-73d6-44e3-8a76-4cec718df318">
+    <name>Стандартная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7c9da5c-88dc-42ae-aa3d-d8b8b03090c7">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b73aaa48-d85f-4f10-a08f-91f0138b5f96">
+    <name>Демо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1cedbf54-9126-4518-90e7-de0def428547">
+    <name>ИТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИТС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0121aea-7c36-469b-a2ce-1c4ee6e91a71">
+    <name>Персональная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для сотрудника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="051d0197-6ba3-4836-b791-4cbaa6b7adb7">
+    <name>ДляКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для компании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe895be7-cd58-40ec-8350-ed40cfad30a5">
+    <name>Аутсорс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутсорс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3b6d70b-d87e-4706-9eaa-11f559c48cd0">
+  <name>CRM_ПодсистемаБизнесПроцессыИЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема бизнес процессы и задачи</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Subsystem business processes and tasks</value>
+  </synonym>
+  <comment>Подсистема &quot;Бизнес-процессы и задачи&quot;</comment>
+</mdclass:CommonPicture>

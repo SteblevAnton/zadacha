@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dca1a416-f519-45af-9006-c53f74464997">
+  <producedTypes>
+    <selectionType typeId="cf45d348-8b4d-47b6-b2cd-b5de92c86e5c" valueTypeId="96707f32-6b2c-4a3c-832f-3ff9bb113d41"/>
+    <listType typeId="2061e2c1-76b7-4e70-b30a-ef49348251cd" valueTypeId="1534abc5-ff93-44a1-bcbb-41d3ec3009c2"/>
+    <managerType typeId="ae5ce91f-cd55-4d6c-a661-0350baed7ebe" valueTypeId="57468abb-dff0-496b-a094-18be76194236"/>
+    <recordSetType typeId="bd8b7f24-c90d-4136-be77-68b7f3feed66" valueTypeId="6b2d5094-26c9-43b0-ab56-1549acebca2e"/>
+    <recordKeyType typeId="344e67b1-1890-4e35-a34c-1522e5f24db1" valueTypeId="3421c9b3-27d1-4d55-8508-7684dd389835"/>
+    <recordType typeId="07ae88ef-a36c-4eda-b2f7-6afa56c3a63c" valueTypeId="3f4509e0-8551-469d-936b-d5742ee2c26b"/>
+    <recordManagerType typeId="e99aa75c-152c-4129-bfd6-467d18e2660b" valueTypeId="5225bdbc-7294-478d-b0eb-efacc096331b"/>
+  </producedTypes>
+  <name>ЦБР_НастройкиАРМДляПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки АРМ для пользователей (ЦБР)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e5b7c68a-6fa7-4066-93d5-9b72aeb6edcb">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b5eb34f6-d501-45f0-8de3-40553bbe403d">
+    <name>ШаблонАРМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон АРМ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦБР_ШаблоныАРМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

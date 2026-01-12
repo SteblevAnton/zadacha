@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2116dedc-4388-4730-80ae-f3c89662b9d0">
+  <producedTypes>
+    <refType typeId="9a3b0871-9cb7-4fb8-bacb-0f6d911ef923" valueTypeId="7e73172c-e74e-4a05-a0ba-7f6758014de2"/>
+    <listType typeId="7c84dfff-433f-40c9-8393-71025c48c3ce" valueTypeId="2ae606ea-2889-4d23-9c4f-af83e63b3844"/>
+    <managerType typeId="fc57521a-6dff-49e1-9310-fc4ea316d265" valueTypeId="aad7fb9d-7b4b-4a8f-a726-5b1fa3f39089"/>
+  </producedTypes>
+  <name>ЦБР_ПричиныВнимания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины внимания (ЦБР)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c005109a-c317-40fd-89d6-ed2629c9b0c5">
+    <name>ЗапросИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос информации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8598c3d9-3b93-4a58-94a5-f7e2d0208e22">
+    <name>ЭтоНоваяЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это новая задача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b471a98a-7d57-49d6-a4f4-e4dba42a236a">
+    <name>НетЗапланированныхДействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет запланированных действий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2d575cb-ce22-4956-89cd-387d53d410cb">
+    <name>ЗадачаВЗапросеИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача в запросе информации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53aa7d32-97d0-4f4c-a4a5-bb31b64ad128">
+    <name>ЭтоБлок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это блок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c84c117b-dce0-4407-b256-90128f46df2c">
+    <name>ПросроченСтартОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочен старт ОС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e727b0a-1616-4e81-944a-15b1d916c713">
+    <name>ПросроченоОкончаниеОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочено окончание ОС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

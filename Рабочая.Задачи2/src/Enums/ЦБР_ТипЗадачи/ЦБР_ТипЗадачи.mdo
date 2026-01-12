@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67a77c1e-8b6e-413c-99a9-65e27c4cca8f">
+  <producedTypes>
+    <refType typeId="8b62cb90-735e-4cf8-85d1-1a5f857634d3" valueTypeId="500799dd-2e24-4718-a76e-4fd4d6119889"/>
+    <listType typeId="60e9f250-43d1-479d-baea-a046a0593989" valueTypeId="d0c815d1-a8d2-4e55-ae36-a7162bf2ebf3"/>
+    <managerType typeId="f8f90fef-6546-4330-a08e-59544997add8" valueTypeId="99b9ce51-9471-4eef-b72a-9f4695616c0f"/>
+  </producedTypes>
+  <name>ЦБР_ТипЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип задачи (ЦБР)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы задач отдела внедрения</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы задач отдела внедрения</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Список типов задач отдела внедрения.</value>
+  </explanation>
+  <enumValues uuid="32b89d9d-96df-4da1-9aa6-ea3db9c18874">
+    <name>Стандартная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e82f8444-614a-4da6-8e63-e93ba58dfff8">
+    <name>Демо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демонстрация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26bab080-f715-4081-8c26-349c0b12a711">
+    <name>ДляКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренняя (по базе)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ae9097c-0b67-4e43-991a-66cd4c27f3e3">
+    <name>Аутсорс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутсорс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

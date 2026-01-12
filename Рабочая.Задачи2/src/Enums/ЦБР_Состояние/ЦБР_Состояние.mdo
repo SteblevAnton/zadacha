@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d0c440f-ada5-42c7-afbf-06434d9a03dd">
+  <producedTypes>
+    <refType typeId="8de886ac-bb33-4484-93a5-3ab4fd2829dc" valueTypeId="260e65a6-9545-4332-9f44-eaffddaf4129"/>
+    <listType typeId="1f04caba-25fb-43c7-bdc9-d70925ae381e" valueTypeId="b15e7c31-c4ab-4dd8-8fa6-31aa50e2dc4d"/>
+    <managerType typeId="8fbbde83-93b4-4866-b564-e212545b4f35" valueTypeId="02e99404-47b7-4fb9-a15d-4e52171293b9"/>
+  </producedTypes>
+  <name>ЦБР_Состояние</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние заданий (ЦБР)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7885f70b-6488-4479-90ac-ba183016f9ee">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75486e40-c370-4da1-a40f-78e2d4040fe1">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c01f3d18-1807-4e7d-bef5-667c5d6ac3ec">
+    <name>ГотовКСдаче</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к сдаче</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d97f986-0717-4715-b2c4-1d25939c56a5">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f299784c-acf9-4f2c-8327-fbf08290272d">
+    <name>ЗапросИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a886d95-05df-4b77-a1c9-2eb81a03be69">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e51c941b-0747-47b4-8012-f55e7447d4f1">
+    <name>НаТестировании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На тестировании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c084551-fa54-4d91-b3a6-3ea7f2588549">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c074c5a-eabe-4290-8eb1-cdd2ddb32472">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="684ddeaa-cdf7-42c0-a396-6928cd6a8a38">
+    <name>ПринятьЗадачу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принять задачу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dbfc1b27-5208-46fa-87c4-1b62d2a32505">
+    <name>Приостановлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к закрытию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5abca18-e97b-45d0-99de-092fe78d0d8c">
+    <name>Согласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ffc80d39-23d2-47d7-a509-4fe7777d5953">
+    <name>УточнениеТребований</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уточнение требований</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9fa8cc8e-7f79-48d9-9b7f-52514dd77d50">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="705d1e4a-85bc-45f4-897c-9b82f5f3cbdd">
+    <name>НеСогласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не согласован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8a51b22-5faf-4931-bf55-eeacdf8fecb0">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

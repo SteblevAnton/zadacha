@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="910557fe-c37a-4d33-93e4-01dc5b2da8f0" extendedConfigurationObject="3cf14275-b8cb-412e-aeb4-5137ce664d0c">
+  <producedTypes>
+    <objectType typeId="b44b38d2-2db7-45f7-b218-e9336b665b53" valueTypeId="567b79d4-85b5-45f5-b87d-be9e4f6ec55d"/>
+    <refType typeId="78733b93-b14c-4263-9e11-f7e5391db322" valueTypeId="6a41816c-1eb7-4703-8bb1-177f0010cf27"/>
+    <selectionType typeId="e4f06cd1-5bff-439e-a09e-955b55874be7" valueTypeId="868abde4-d298-4517-b568-4d74acefd744"/>
+    <listType typeId="37515241-0051-472f-97ba-32bd5b8fe068" valueTypeId="51a1ffc3-ac04-4a5f-b347-893f814c4f7a"/>
+    <managerType typeId="84cb3eb0-3c77-4c21-9357-8e9a784d6c7f" valueTypeId="8daa15c4-5b90-4bc5-bf6c-684774462aae"/>
+  </producedTypes>
+  <name>cbr_Конфигурации1С</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

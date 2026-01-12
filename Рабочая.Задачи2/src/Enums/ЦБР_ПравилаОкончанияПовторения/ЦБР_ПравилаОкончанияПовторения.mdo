@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a4f0837-7d36-42c9-84ba-75e9c7c12f49">
+  <producedTypes>
+    <refType typeId="307de7b9-27c6-4136-9936-71b41d460abb" valueTypeId="cd1b6444-9d98-4c6e-87da-4db4b19b0b60"/>
+    <listType typeId="da45287f-c3de-4136-a453-833203f09627" valueTypeId="131c0cb5-887c-4b3a-94c8-f35f71214f17"/>
+    <managerType typeId="68b36a35-c60e-4211-aa23-7dcba6ebeb3a" valueTypeId="ab23db8a-14db-4c85-a68a-e028f8c26335"/>
+  </producedTypes>
+  <name>ЦБР_ПравилаОкончанияПовторения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила окончания повторения (ЦБР)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ece0a4ef-a8bd-4ab0-90d9-51149098cb7e">
+    <name>Никогда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Никогда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b117c09-48a1-4660-8d19-426a355d8675">
+    <name>ПослеЧислаПовторов</name>
+    <synonym>
+      <key>ru</key>
+      <value>После числа повторов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5f9af23-f3b6-4220-8ffe-347a56761798">
+    <name>ДоДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>До даты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf0181b4-5f2b-4722-8c2f-f64ea3be5cf5">
+  <name>ЦБР_ФормаПодбораИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор исполнителей</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

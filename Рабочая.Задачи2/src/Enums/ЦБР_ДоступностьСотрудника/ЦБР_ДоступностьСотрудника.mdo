@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87123cdf-33b8-4cf0-bcd4-7aa223a06521">
+  <producedTypes>
+    <refType typeId="089656ec-5f94-46dd-a87b-bc6c6ad82396" valueTypeId="b5a728c5-feb6-4e62-a062-049133881dce"/>
+    <listType typeId="63237725-d277-42be-af89-a6cb86f44b67" valueTypeId="3fb1c11f-b478-42a3-97d7-2013968c8c6c"/>
+    <managerType typeId="f356b491-399a-4d67-aae5-cb8aba7ea75d" valueTypeId="881354d2-a49d-4b6d-99f6-dcc2545211b5"/>
+  </producedTypes>
+  <name>ЦБР_ДоступностьСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступность сотрудника (ЦБР)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f2a5119d-74de-492d-94e1-f787ec45b646">
+    <name>ДоступенВсегда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступен всегда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16a4a8ff-7995-4e92-b9f2-f45d3c8c58bd">
+    <name>ДоступенПоРасписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступен по расписанию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a95e924-195b-4f21-9eca-9332f957751a">
+    <name>ЗанятВсегда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занят всегда</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d5854cb-8b99-4925-b3f5-007ceee5662e">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЦБР_ГруппыСотрудников</content>
+  <content>Catalog.ЦБР_ЗаписиРабочегоКалендаря</content>
+  <content>Catalog.ЦБР_Конфигурации1С</content>
+  <content>Catalog.ЦБР_СтруктураЗадач</content>
+  <content>Catalog.ЦБР_ШаблоныАРМ</content>
+  <content>Catalog.ЦБР_КолонкиАРМ</content>
+  <content>Catalog.ЦБР_ВидыРаботВКалендаре</content>
+  <parentSubsystem>Subsystem.Задачи2</parentSubsystem>
+</mdclass:Subsystem>

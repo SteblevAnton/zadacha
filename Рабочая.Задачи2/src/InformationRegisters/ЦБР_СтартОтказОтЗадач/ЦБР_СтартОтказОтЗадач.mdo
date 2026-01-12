@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb2794d1-4363-476d-93e9-cd68c5e3b663">
+  <producedTypes>
+    <selectionType typeId="64804a14-79e7-47c3-b136-043194687952" valueTypeId="f930bcf6-032a-4ce7-8c80-027b92282227"/>
+    <listType typeId="aa7003fe-bfba-4d42-b799-bd1ee257ac6f" valueTypeId="2dda62f1-e671-4f96-b534-89e4621e2baa"/>
+    <managerType typeId="d38ca35d-a302-402f-9650-ce64845e7d93" valueTypeId="f8e36716-2b32-4c41-a3ea-3caf65b099bc"/>
+    <recordSetType typeId="2a722fee-bc7f-4c05-9762-2c2763adda0f" valueTypeId="71aa693d-7b5b-46c3-aabb-323db145b012"/>
+    <recordKeyType typeId="b6a4ed8a-e902-45da-90df-a00fe5984934" valueTypeId="1c3742f1-9803-40e6-8a81-9d83ed510232"/>
+    <recordType typeId="2e01d27f-b4a9-4f6e-8e7e-2e8df4c59786" valueTypeId="5b54ea48-b2ae-4693-ab38-386d5bf2dc85"/>
+    <recordManagerType typeId="ee0ef967-663d-41aa-875a-16b78e3ad95d" valueTypeId="ad1a99b3-fb19-4000-b7dc-4acb09ab5a3b"/>
+  </producedTypes>
+  <name>ЦБР_СтартОтказОтЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принятие задач в работу (ЦБР)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Принятие задач в работу (ЦБР)</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Принятие задач в работу (ЦБР)</value>
+  </listPresentation>
+  <resources uuid="7e7740ff-fef4-4b31-92cc-d02e83d9e3b3">
+    <name>ПринятоВРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято в работу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="0f051f8a-9d09-4f08-b878-79d6875f9af4">
+    <name>ПричинаОтказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина отказа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="6be577ba-f70a-4a59-80cf-157690730afe">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦБР_Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="96566156-78aa-4db7-9f0d-22a6786a7005">
+    <name>Куратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Куратор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

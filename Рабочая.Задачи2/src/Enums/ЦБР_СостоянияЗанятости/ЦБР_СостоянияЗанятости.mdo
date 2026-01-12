@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98b4b121-29f1-4d9f-8139-db57a996ff02">
+  <producedTypes>
+    <refType typeId="ea5d5921-82c0-485e-91ae-433fdeabcee4" valueTypeId="1c574429-a8e2-4986-aec7-297447145078"/>
+    <listType typeId="f0300fe6-8adf-42f9-af02-41a23bc92522" valueTypeId="20bccb4b-e52e-4de8-8734-a840754f6d73"/>
+    <managerType typeId="321b3b31-575c-44cf-a2ee-136310f0b9cd" valueTypeId="4b12a89e-9178-434f-946c-53ee67ba0ac6"/>
+  </producedTypes>
+  <name>ЦБР_СостоянияЗанятости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния занятости (ЦБР)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5f66199b-9d2b-4e72-97da-97b7242d7b37">
+    <name>Доступен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27a9f05f-3b67-4040-9317-d990ccf00860">
+    <name>ПодВопросом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Под вопросом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9612614-1a42-4437-9fee-682fcfbbbd0a">
+    <name>Занят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занят</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="972c1263-719f-47f7-89e3-7d6face3ca67">
+    <name>Отсутствует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствует</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
